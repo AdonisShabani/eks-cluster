@@ -18,7 +18,7 @@ module "vpc" {
 }
 
 locals {
-  cluster_name = "My-eks-cluster"
+  cluster_name = "my-eks-cluster"
 }
 
 module "aws_eks" {
