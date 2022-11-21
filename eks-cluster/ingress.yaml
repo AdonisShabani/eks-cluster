@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: nginx-adonis
+  name: adonis-nginx 
   namespace: nginx-ns
   annotations:
     kubernetes.io/ingress.class: alb
