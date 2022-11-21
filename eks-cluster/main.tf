@@ -93,8 +93,4 @@ module "aws_eks" {
   tags = {
     Training = "devops"
   }
-
-  lifecycle {
-    ignore_changes = [password_reset_required]
-  }
 }
