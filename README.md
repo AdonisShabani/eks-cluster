@@ -1,16 +1,10 @@
 # Tech Stack
-- Next JS 
-- Docker 
-- GitHub Actions
 - Terraform
 - AWS
-- Helm
 - Kubernetes
 
 # Key Learnings
 
-- Creating a next.js application
-- Containerizing the application using Docker
-- Creating CI/CD pipelines using GitHub Actions
-- Provisioning AWS resources with Terraform
-- Generating Helm charts
+- Provisioning resurces with Terraform
+- Using Terraform Cloud to store Variables and to create CI/CD Pipeline
+- Creating roles in Kubernetes
